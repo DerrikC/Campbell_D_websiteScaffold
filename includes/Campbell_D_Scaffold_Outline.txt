@@ -1,0 +1,1 @@
+For this assignment I am creating a scaffold using html and css. I am basing the structure of this scaffold on a design both my group partner and I are working on for a client. This scaffold is basically a wireframe generated using css and html. This will gives the base understanding of how we want our client's site to look. 
