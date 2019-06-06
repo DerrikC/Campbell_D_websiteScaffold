@@ -1,4 +1,4 @@
-For this project I am creating a scaffold of my midterm wireframe using html and css.
+For this project I am creating a 2 page scaffold of my midterm wireframe using html and css.
 
 This scaffold will outline the general structure of the "angler.org" site that is being worked on.
 
