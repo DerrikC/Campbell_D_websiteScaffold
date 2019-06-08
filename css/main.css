@@ -23,16 +23,69 @@ main {
   width: 1366px;
   height: 179px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home {
+  background-color: rgb(235, 235, 235);
+  width: 98px;
+  height: 40px;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+.page2 {
+  background-color: rgb(235, 235, 235);
+  width: 98px;
+  height: 40px;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+.page3 {
+  background-color: rgb(235, 235, 235);
+  width: 98px;
+  height: 40px;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+.page4 {
+  background-color: rgb(235, 235, 235);
+  width: 98px;
+  height: 40px;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+.page5 {
+  background-color: rgb(235, 235, 235);
+  width: 98px;
+  height: 40px;
+	text-align: center;
+	position: relative;
+	top: 75px;
+}
+
+.page6 {
+  background-color: rgb(235, 235, 235);
+  width: 98px;
+  height: 40px;
+	text-align: center;
+	position: relative;
+	top: 75px;
 }
 
 .logo {
   background-color: rgb(235, 235, 235);
   position: relative;
-  left: 570px;
-  top: 16px;
   width: 210px;
   height: 158px;
+	top: 16px;
 }
 
 .welcome_title {
@@ -121,32 +174,55 @@ main {
 #events_text_container2 {
   background-color: rgb(235, 235, 235);
   width: 1366px;
-  height: 317px;
+  height: 300px;
   display: flex;
   justify-content: space-around;
 }
 
-.sponsor_title_container {
-    background-color: rgb(0, 0, 255);
-    width: 1366px;
-    height: 125px;
+#events_title_container {
+  background-color: rgb(235, 235, 235);
+  top: 916px;
+  width: 1366px;
+  height: 185px;
 }
 
-.sponsors_title {
+#events_image_container2 {
+  background-color: rgb(152, 30, 30);
+  width: 1366px;
+  height: 331px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#events_text_container3 {
+  background-color: rgb(235, 235, 235);
+  width: 1366px;
+  height: 317px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.events_text_container2 {
+  background-color: rgb(235, 235, 235);
+  width: 1366px;
+  height: 185px;
+}
+
+#events_title_container2 {
+  background-color: rgb(235, 235, 235);
+  width: 1366px;
+  height: 185px;
+	position: relative;
+}
+
+.previousEvents_title {
   background-color: rgb(161, 161, 161);
-  left: 478px;
+	left: 491px;
   width: 410px;
   height: 57px;
-  position: relative;
-  top: 31px;
+	position: relative;
 }
-
-#sponsors_container {
-  background-color: rgb(237, 28, 36);
-  width: 1365px;
-  height: 273px;
-}
-
 
 .events_image_1 {
   background-color: rgb(161, 161, 161);
@@ -203,6 +279,98 @@ main {
   top: 15px;
 }
 
+.events_image_4 {
+  background-color: rgb(161, 161, 161);
+  width: 274px;
+  height: 266px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.events_image_5 {
+  background-color: rgb(161, 161, 161);
+  width: 274px;
+  height: 266px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.events_image_6 {
+  background-color: rgb(161, 161, 161);
+  width: 274px;
+  height: 266px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+
+.events_text_4 {
+  background-color: rgb(161, 161, 161);
+  width: 408px;
+  height: 170px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.events_text_5 {
+  background-color: rgb(161, 161, 161);
+  width: 394px;
+  height: 248px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.events_text_6 {
+  background-color: rgb(161, 161, 161);
+  width: 380px;
+  height: 171px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.shop_container {
+  background-color: rgb(161, 161, 161);
+  top: 0px;
+  width: 1366px;
+  height: 514px;
+}
+
+.merchandise {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 437px;
+  top: 75px;
+  width: 483px;
+  height: 368px;
+}
+
+
+.sponsor_title_container {
+    background-color: rgb(0, 0, 255);
+    width: 1366px;
+    height: 125px;
+}
+
+.sponsors_title {
+  background-color: rgb(161, 161, 161);
+  left: 478px;
+  width: 410px;
+  height: 57px;
+  position: relative;
+  top: 31px;
+}
+
+#sponsors_container {
+  background-color: rgb(237, 28, 36);
+  width: 1365px;
+  height: 273px;
+}
 
 #contact_us_container {
   background-color: rgb(149, 149, 149);
@@ -214,7 +382,7 @@ main {
 .contact_title {
   background-color: rgb(235, 235, 235);
   position: relative;
-  left: 478px;
+  left: 499px;
   top: 50px;
   width: 410px;
   height: 57px;
