@@ -11,19 +11,21 @@
 .hidden { display: none; }
 
 main {
-  width: 1366px;
+  width: 1366px;     /* temporary width - will be changed to be responsive */
   padding: 0 10 px 10 px 0;
   margin: 0 auto;
   /*temporary border - so I can view the site dimensions */
   border: thin dashed #333;
 }
 
+/* navigation bar */
+
 #top_bar {
   background-color: rgb(70, 70, 70);
   width: 1366px;
   height: 179px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; /* to even out items in nar bar */
 }
 
 .home {
@@ -31,7 +33,7 @@ main {
   width: 98px;
   height: 40px;
 	text-align: center;
-	position: relative;
+	position: relative;  /* to move items within another div */
 	top: 75px;
 }
 
@@ -88,6 +90,8 @@ main {
 	top: 16px;
 }
 
+/* main hook image and content */
+
 .welcome_title {
   background-color: rgb(235, 235, 235);
   position: relative;
@@ -113,6 +117,8 @@ main {
   height: 916px;
 }
 
+/* mission section */
+
 #mission_title_container {
   background-color: rgb(235, 235, 235);
   top: 916px;
@@ -136,6 +142,8 @@ main {
   width: 1366px;
   height: 281px;
 }
+
+/* events section */
 
 #events_text_container1 {
   background-color: rgb(0, 0, 255);
@@ -279,6 +287,8 @@ main {
   top: 15px;
 }
 
+/* page 2 event section */
+
 .events_image_4 {
   background-color: rgb(161, 161, 161);
   width: 274px;
@@ -334,6 +344,8 @@ main {
   top: 15px;
 }
 
+/* shop section */
+
 .shop_container {
   background-color: rgb(161, 161, 161);
   top: 0px;
@@ -350,6 +362,7 @@ main {
   height: 368px;
 }
 
+/* sponsor section */
 
 .sponsor_title_container {
     background-color: rgb(0, 0, 255);
@@ -371,6 +384,8 @@ main {
   width: 1365px;
   height: 273px;
 }
+
+/* contact section */
 
 #contact_us_container {
   background-color: rgb(149, 149, 149);
@@ -424,6 +439,7 @@ main {
   height: 77px;
 }
 
+/* footer */
 
 #copyright {
   background-color: rgb(235, 235, 235);
