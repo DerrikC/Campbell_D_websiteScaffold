@@ -11,20 +11,47 @@
 .hidden { display: none; }
 
 main {
-  width: 1372px;
+  width: 1366px;
   padding: 0 10 px 10 px 0;
   margin: 0 auto;
   /*temporary border - so I can view the site dimensions */
   border: thin dashed #333;
-
 }
+
 #top_bar {
   background-color: rgb(70, 70, 70);
-  top: 1px;
-  width: 1372px;
+  width: 1366px;
   height: 179px;
+  display: flex;
+  flex-direction: row;
 }
 
+.logo {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 570px;
+  top: 16px;
+  width: 210px;
+  height: 158px;
+}
+
+.welcome_title {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 510px;
+  top: 224px;
+  width: 333px;
+  height: 73px;
+}
+
+.join_us_button {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 610px;
+  top: 380px;
+  width: 143px;
+  height: 52px;
+}
 
 .hook_image {
   background-color: rgb(161, 161, 161);
@@ -36,34 +63,203 @@ main {
 #mission_title_container {
   background-color: rgb(235, 235, 235);
   top: 916px;
-  width: 1368px;
+  width: 1366px;
   height: 185px;
 }
+
+.mission_title {
+    background-color: rgb(161, 161, 161);
+    position: relative;
+    left: 478px;
+    top: 50px;
+    width: 410px;
+    height: 57px;
+  }
+
 
 .mission_image {
   background-color: rgb(161, 161, 161);
   top: 1101px;
-  width: 1370px;
+  width: 1366px;
   height: 281px;
 }
 
-#events_container {
-  background-color: rgb(235, 235, 235);
-  top: 1380px;
+#events_text_container1 {
+  background-color: rgb(0, 0, 255);
   width: 1366px;
-  height: 1231px;
+  height: 198px;
+  position: relative;
 }
+
+
+.mission_statement_text {
+  background-color: rgb(161, 161, 161);
+  left: 145px;
+  width: 1075px;
+  height: 49px;
+  position: relative;
+  top: 45px;
+}
+
+.events_title {
+  background-color: rgb(161, 161, 161);
+  left: 478px;
+  width: 410px;
+  height: 57px;
+  position: relative;
+  top: 81px;
+}
+
+#events_image_container {
+  background-color: rgb(152, 30, 30);
+  width: 1366px;
+  height: 331px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#events_text_container2 {
+  background-color: rgb(235, 235, 235);
+  width: 1366px;
+  height: 317px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsor_title_container {
+    background-color: rgb(0, 0, 255);
+    width: 1366px;
+    height: 125px;
+}
+
+.sponsors_title {
+  background-color: rgb(161, 161, 161);
+  left: 478px;
+  width: 410px;
+  height: 57px;
+  position: relative;
+  top: 31px;
+}
+
+#sponsors_container {
+  background-color: rgb(237, 28, 36);
+  width: 1365px;
+  height: 273px;
+}
+
+
+.events_image_1 {
+  background-color: rgb(161, 161, 161);
+  width: 274px;
+  height: 266px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.events_image_2 {
+  background-color: rgb(161, 161, 161);
+  width: 274px;
+  height: 266px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.events_image_3 {
+  background-color: rgb(161, 161, 161);
+  width: 274px;
+  height: 266px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+
+.events_text_1 {
+  background-color: rgb(161, 161, 161);
+  width: 408px;
+  height: 170px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.events_text_2 {
+  background-color: rgb(161, 161, 161);
+  width: 394px;
+  height: 248px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.events_text_3 {
+  background-color: rgb(161, 161, 161);
+  width: 380px;
+  height: 171px;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
 
 #contact_us_container {
   background-color: rgb(149, 149, 149);
   top: 2611px;
-  width: 1365px;
+  width: 1366px;
   height: 700px;
 }
+
+.contact_title {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 478px;
+  top: 50px;
+  width: 410px;
+  height: 57px;
+}
+
+.name_box {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 322px;
+  top: 100px;
+  width: 731px;
+  height: 74px;
+}
+
+.email_box {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 322px;
+  top: 125px;
+  width: 731px;
+  height: 74px;
+}
+
+.message_box {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+  left: 322px;
+  top: 150px;
+  width: 731px;
+  height: 237px;
+}
+
+.send_button {
+  background-color: rgb(70, 70, 70);
+  position: relative;
+  left: 538px;
+  top:175px;
+  width: 291px;
+  height: 77px;
+}
+
 
 #copyright {
   background-color: rgb(235, 235, 235);
   top: 3311px;
-  width: 1368px;
+  width: 1366px;
   height: 85px;
 }
